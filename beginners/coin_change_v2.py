@@ -17,8 +17,8 @@ https://openbookproject.net/thinkcs/python/english3e/variables_expressions_state
 chapter 1 and chapter 2
 """
 
-# step 1: Amount is the number of cents we begin with :
-amount = 65
+# step 1: Enter the amount of cents you have:
+amount = int(input("How much cents do you have : "))
 
 # Step 2: "Integer division" (//) gives us how many times 25 fits into amount
 quarter = amount // 25
