@@ -17,10 +17,16 @@ https://openbookproject.net/thinkcs/python/english3e/variables_expressions_state
 chapter 1 and chapter 2
 """
 
-# step 0 : which current are changing
-current = input("what current are changing? ")
+# step 0 : Ask user for the current i.e. dollar
+name = input("what's your name? ")
 
+# remove white space from the input string, captialize and title
+name = name.strip().capitalize().title()
+print (f"Hello, {name}")
 
+# remove white space from the input string, captialize and title
+currency = input("what currency are changing? ")
+currency = currency.strip().capitalize().title()
 
 # step 1: Enter the amount of cents you have:
 amount = int(input("How much cents do you have : "))
@@ -49,6 +55,7 @@ amount = amount % 5
 pennies = amount
 
 # Step 6 : prints the results
+print (f"Currency: {currency}")
 print (f"Quanters: {quarter}")
 print (f"Dimes: {dimes}")
 print (f"Nickel: {nickel}")
