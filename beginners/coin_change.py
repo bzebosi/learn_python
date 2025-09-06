@@ -22,7 +22,7 @@ name = input("what's your name? ")
 
 # remove white space from the input string, captialize and title
 name = name.strip().capitalize().title()
-print (f"Hello, {name}")
+print (f"Hello, {name}!")
 
 # remove white space from the input string, captialize and title
 currency = input("what currency are changing? ")
