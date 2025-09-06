@@ -17,8 +17,13 @@ https://openbookproject.net/thinkcs/python/english3e/variables_expressions_state
 chapter 1 and chapter 2
 """
 
-# step 1: Amount is the number of cents we begin with :
-amount = 65
+# step 0 : which current are changing
+current = input("what current are changing? ")
+
+
+
+# step 1: Enter the amount of cents you have:
+amount = int(input("How much cents do you have : "))
 
 # Step 2: "Integer division" (//) gives us how many times 25 fits into amount
 quarter = amount // 25
@@ -44,10 +49,10 @@ amount = amount % 5
 pennies = amount
 
 # Step 6 : prints the results
-print ("Quanters:", quarter)
-print ("Dimes:", dimes)
-print ("Nickel:", nickel)
-print ("Pennies:", pennies)
+print (f"Quanters: {quarter}")
+print (f"Dimes: {dimes}")
+print (f"Nickel: {nickel}")
+print (f"Pennies: {pennies}")
 
 
 
