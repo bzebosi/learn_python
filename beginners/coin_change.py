@@ -44,7 +44,7 @@ dimes = amount // 10
 # modulo (%) give us leftover after taking out dimes (update amount)
 amount = amount % 10
 
-# step4 : how many nickels go into the remaining amount
+# step 4 : how many nickels go into the remaining amount
 # divide the remaining amount after removing quarters and dimes by 5
 nickel = amount // 5
 
